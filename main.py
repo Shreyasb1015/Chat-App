@@ -8,7 +8,7 @@ app.config["SECRET_KEY"] ="hjhjsdahhds"
 
 socketio=SocketIO(app)
 
-rooms={}
+rooms={}     ###Creating empty dictionary to store the room ids.
 def generate_unique_code(length):
     while True:
         code=""
